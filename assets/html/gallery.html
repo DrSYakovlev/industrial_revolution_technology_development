@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+      
+      html, body {
+        height: 100%;
+        font-family:'Courier New', Courier, monospace;
+        font-size: large;
+        font-weight: bold;
+        color:darkblue;        
+      }
+
+      .bg {
+        background-image: url("../images/gallery-background.jpg");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        }  
+      div.gallery {
+        border: 2px solid steelblue;
+      }
+
+      div.gallery:hover {
+        border: 4px solid slateblue;
+      }
+
+      div.gallery img {
+        width: 100%;
+        height: auto;
+      }
+
+      div.desc {
+        padding: 15px;
+        text-align: center;
+      }
+
+      div.desc:hover {
+        color: blueviolet;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+    .responsive {
+      padding: 0 6px;
+      float: left;
+       width: 19.99999%;
+      }
+
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      text-align: right;
+      font-size: larger;
+      padding-left: 200px;
+      padding-right: 20px;
+      }
+
+  @media only screen and (max-width: 900px) {
+    .responsive {
+      width: 100%;
+    
+  }
+      .bg {
+        background-image: none;
+        background-color: beige;
+      }
+    p {display: none;}
+      
+}
+
+    </style>
+</head>
+
+<body class="bg">    
+    <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="../images/chronometer-gallery.jpg">
+            <img src="../images/chronometer-gallery.jpg" alt="Marine chronometer" width="600">
+          </a>
+          <div class="desc">Marine chronometer, from the collection of <em>SJX Antiquities</em></div>
+        </div>
+      </div>      
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="../images/toothbrush-gallery.jpg">
+            <img src="../images/toothbrush-gallery.jpg" alt="Toothbrush" width="600">
+          </a>
+          <div class="desc">Types of antique toothbrushes, <em>The National Library of Medicine</em></div>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="../images/pears_soap-gallery.jpg">
+            <img src="../images/pears_soap-gallery.jpg" alt="Pear's soap" width="600">
+          </a>
+          <div class="desc">Metal shield advertising Pear's soap</div>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="../images/pencil_notetaking-gallery.jpg">
+            <img src="../images/pencil_notetaking-gallery.jpg" alt="Taking notes with a pencil" width="600">
+          </a>
+          <div class="desc">Taking notes with a pencil. Featured is a yellow colour cymbolising royalty and prosperity in China</div>
+        </div>
+      </div>
+
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="../images/viltaic_pile-1.jpg">
+            <img src="../images/viltaic_pile-1.jpg" alt="Voltaic pile" width="600">
+          </a>
+          <div class="desc">Voltaic pile built of layers of electrolyte, sandwiched between copper and zink electrodes, from the collection of the <em>University of Pavia, Hystory Museum</em></div>
+        </div>
+      </div>
+      
+      
+      
+      <div class="footer" class="responsive">
+        <p>Backround image is a painting by Trevor Grimshaw. It highlights the way <em>the Industrialisation</em> changed our traditional urban landscape</p>
+      </div>
+      
+</body>
+</html>

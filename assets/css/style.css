@@ -1,0 +1,72 @@
+html, body {
+    background-color:beige;
+}
+
+nav {
+    background-color:beige;
+
+}
+
+a:link {
+    color:darkslateblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding-left: 3px;
+    padding-top: 10px;
+    }
+
+.nav-list-item {
+    display: inline-block;
+    padding-left: 10px;
+    color: antiquewhite;
+}
+
+h1, h2, h3, h4, h5, h6, li {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+html, body {
+    height: 100%;
+}
+
+.head-extra {
+    background-color:blanchedalmond;
+    position:fixed;
+    left: 0;
+    top: 0;
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: darkslategrey;
+    margin-top: 10px;
+}
+
+.bg-extra {
+    background-image: url("../images/extraread-background.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
