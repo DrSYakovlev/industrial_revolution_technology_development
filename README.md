@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This little project is telling the story of some very useful things invented during the exciting period in modern history known to us as an Industrial Revolution (1760-1840). It is difficult to overestimate a significance of technical development which occured during that period of time. The present project tells about some inventions we use every day and take for granted (except for a marine chronometer, which enabled safe navigation, great geographical discoveries and global trade). You will learn a bit about personalities beyond each invention and, of course the story of success when each invention was commerciolised. The project tells about five objects only - a drop in the ocean. We would require a serios research work to unvail this prolific period. The page contains main text, links to corresponding pages on Wikipedia (opened in separate tabs) and to little magazine or newspaper notes which a curious mind will find interesting. For a better experience use a full-screen pc to browse. Finally, the page has a form where you can choose what else you would like to learn about history of technology.
+This little project is telling the story of some very useful things invented during the exciting period in modern history known to us as an Industrial Revolution (1760-1840). It is difficult to overestimate a significance of technical development which occured during that period of time. The present project tells about some inventions we use every day and take for granted (except for a marine chronometer, which enabled safe navigation, great geographical discoveries and global trade). You will learn a bit about personalities beyond each invention and, of course the story of success when each invention was commercialised. The project tells about five objects only - a drop in the ocean. We would require a serious research work to unvail this prolific period. The page contains main text, links to corresponding pages on Wikipedia (opened in separate tabs) and to little magazine or newspaper notes which a curious mind will find interesting. For a better experience use a full-screen pc to browse. Finally, the page has a form where you can choose what else you would like to learn about history of technology.
 
 ## Top navigation bar
 
@@ -42,8 +42,7 @@ All bugs were discovered and fixed prior to submission of the project.
 
 ## Validation
 
-The html and css codes passed W3C and Jigsaw validator with no residual/unresolved issues
-Lighthouse tool came out with high scores for acessibility (97%), best practices (100%), SEO (90%) and medium performance (51 %). In the latter case, size/resolution of some pictures needs to be further optimised.
+The html and css codes passed W3C and Jigsaw validators with no residual/unresolved issues. Lighthouse tool came out with high scores for acessibility (97%), best practices (100%), SEO (90%) and medium performance (51 %). In the latter case, size/resolution of some pictures needs to be further optimised.
 
 ![Lighthouse snapshot](./assets/images/lighthouse-test.png "Lighthouse assessment statistics")
 
